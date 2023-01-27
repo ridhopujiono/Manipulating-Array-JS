@@ -1,0 +1,2 @@
+Fungsi getRandomNumber(start, end) menerima dua parameter, yaitu start dan end, yang mewakili rentang angka yang diinginkan. Kemudian, Math.random() digunakan untuk menghasilkan angka acak antara 0 dan 1.
+Angka tersebut kemudian dikalikan dengan (end - start + 1) untuk mengubah rentang menjadi (0 * (50 - 1 + 1)) = 0 - 49, dan ditambah start (1) untuk mengubah rentang menjadi 1 - 50. Kemudian Math.floor() digunakan untuk mengubah ke bilangan bulat.
